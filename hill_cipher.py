@@ -1,6 +1,8 @@
 from math import gcd
 import numpy as np
 
+# que:- hill cipher
+
 #text-> numbers
 def text_to_numbers(text):
     return [ord(char) - ord('A') for char in text.upper() if char.isalpha()]

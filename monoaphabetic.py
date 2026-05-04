@@ -1,10 +1,12 @@
 from string import ascii_letters, digits
 from random import shuffle
 
+#monoalphabetic cipher
+
 # function is responsible for randomly maping numbers and letters to a new set of numbers and letters. The mapping is one-to-one, 
 # meaning each character maps to exactly one other character, and no two characters map to the same character.
 def random_monoalphabetic_cipher(pool=None):
-    if pool is None:
+    if pool is None:    
         pool = ascii_letters + digits
         print("Using default pool of characters: " + pool)
         
