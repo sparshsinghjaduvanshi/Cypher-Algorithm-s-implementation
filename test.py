@@ -134,7 +134,7 @@ def inverse_pool(cipher):
     print("Inverse pool: ", str(inverse_pool))
     return inverse_pool
 
-    ;dk f          
+    
 def encrypt(text, cipher):
     encrypted_message = []
     
